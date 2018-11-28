@@ -4,7 +4,8 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class AlbumsPager implements Parcelable {
-    public Pager<Album> albums;
+    // Comment to test jitpack integration
+    public Pager<AlbumSimple> albums;
 
 
     @Override
