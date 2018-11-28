@@ -1611,8 +1611,8 @@ public interface SpotifyService {
      * @param q The search query's keywords (and optional field filters and operators), for example "roadhouse+blues"
      * @return A paginated list of results (Album objects not SimpleAlbum)
      */
-//    @GET("/search?type=album")
-//    AlbumsFullPager searchFullAlbums(@Query("q") String q);
+    @GET("/search?type=album")
+    AlbumsFullPager searchFullAlbums(@Query("q") String q);
 
     /**
      * Get Spotify catalog information about playlists that match a keyword string.
